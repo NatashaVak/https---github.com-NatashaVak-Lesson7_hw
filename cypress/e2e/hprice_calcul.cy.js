@@ -43,7 +43,7 @@ it('search at Step 1', () => {
     cy.get(house_age).type('35')  
       
     
-    //   data.forEach(element => {
+       data.forEach(element => {
 
     //      cy.get(current_heater).select(element.current_system).invoke("val").should('eq', element.current_system)
     //      cy.get(heat_type).select(element.current_level).invoke("val").should('eq', element.current_level)
