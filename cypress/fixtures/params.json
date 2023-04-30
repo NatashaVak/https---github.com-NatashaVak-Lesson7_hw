@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "current_system": "aNaturalGas",
+            "current_level": "55"
+        },
+        {
+            "current_system": "Propane",
+            "current_level": "60"
+        },
+        {
+            "current_system": "Oil",
+            "current_level": "65"
+        },
+        {
+            "current_system": "Electric",
+            "current_level": "70"
+        },
+       
+        {
+            "current_level": "75"
+        },
+        {
+            "current_level": "80"
+        },
+        {
+            "current_level": "85"
+        },
+        {
+            "current_level": "90"
+        },
+        {
+            "current_level": "95"
+        }
+    ]
+}
