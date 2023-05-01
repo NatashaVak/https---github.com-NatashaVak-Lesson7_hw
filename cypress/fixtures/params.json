@@ -16,21 +16,44 @@
             "current_system": "Electric",
             "current_level": "70"
         },
-       
         {
+            "current_system": "HeatPump",
             "current_level": "75"
         },
+              
         {
-            "current_level": "80"
+            "new_system": "bNaturalGas",
+            "new_level": "50"
         },
         {
-            "current_level": "85"
+            "new_system": "Propane",
+            "new_level": "60"
         },
         {
-            "current_level": "90"
+            "new_system": "Oil",
+            "new_level": "65"
         },
         {
-            "current_level": "95"
+            "new_system": "Electric",
+            "new_level": "70"
+        },
+        {
+            "new_system": "HeatPump",
+            "new_level": "75"
+        },
+        {
+            "new_system": "DualFuelNaturalGas",
+            "new_level": "80"
+        },
+        {
+            "new_system": "DualFuelOil",
+            "new_level": "85"
+        },
+        {
+            "new_system": "DualFuelPropane",
+            "new_level": "90"
         }
     ]
 }
+
+               
