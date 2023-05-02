@@ -25,7 +25,7 @@ describe('empty spec', () => {
     cy.get(select_state).should('be.visible')
     cy.get(select_state).select('Alberta').invoke("val").should('eq', "Alberta")
 
-    //  cy.get(select_state).select('British Columbia').invoke("val").should('eq', "BritishColumbia") 
+    cy.get(select_state).select('British Columbia').invoke("val").should('eq', "BritishColumbia") 
 
     cy.get(select_state).select('Manitoba').invoke("val").should('eq', "Manitoba")
     cy.get(select_state).select('New Brunswick').invoke("val").should('eq', "NewBrunswick")
@@ -42,8 +42,8 @@ describe('empty spec', () => {
     cy.get(select_city).select('Calgary').invoke("text").should('contain', "Calgary")
 
 
-    //  cy.get(select_state).select('British Columbia')  
-    //   cy.get(select_city).select('British Columbia').invoke("text").should('contain', ".....") 
+    cy.get(select_state).select('British Columbia')  
+    cy.get(select_city).select('British Columbia').invoke("text").should('contain', ".....") 
 
     cy.get(select_state).select('Manitoba')
     cy.get(select_city).select('Winnepeg').invoke("text").should('contain', "Winnepeg")
