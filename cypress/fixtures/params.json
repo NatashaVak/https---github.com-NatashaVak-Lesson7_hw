@@ -2,58 +2,31 @@
     "data": [
         {
             "current_system": "aNaturalGas",
-            "current_level": "55"
+            "current_level": "55",
+            "current_heating_cost": "$8,154.55"
         },
         {
             "current_system": "Propane",
-            "current_level": "60"
-        },
+            "current_level": "60",
+            "current_heating_cost": "$29,545.45"
+        },  
         {
             "current_system": "Oil",
-            "current_level": "65"
+            "current_level": "65",
+            "current_heating_cost":"$20,777.47"
         },
         {
             "current_system": "Electric",
-            "current_level": "70"
+            "current_level": "70",
+            "current_heating_cost": "$10,950.78"
         },
         {
             "current_system": "HeatPump",
-            "current_level": "75"
-        },
-              
-        {
-            "new_system": "bNaturalGas",
-            "new_level": "50"
-        },
-        {
-            "new_system": "Propane",
-            "new_level": "60"
-        },
-        {
-            "new_system": "Oil",
-            "new_level": "65"
-        },
-        {
-            "new_system": "Electric",
-            "new_level": "70"
-        },
-        {
-            "new_system": "HeatPump",
-            "new_level": "75"
-        },
-        {
-            "new_system": "DualFuelNaturalGas",
-            "new_level": "80"
-        },
-        {
-            "new_system": "DualFuelOil",
-            "new_level": "85"
-        },
-        {
-            "new_system": "DualFuelPropane",
-            "new_level": "90"
+            "current_level": "75",
+            "current_heating_cost": "$8,506.56"
         }
-    ]
+              
+           ]
 }
 
                
